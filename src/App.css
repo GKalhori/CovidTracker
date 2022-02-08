@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  background-color: #fff4f4;
+  height: 100%;
+}
+
+/* top bar of the app */
+.App-header {
+  background-color: #576d94;
+  min-height: 10vh;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+/* title of the app and search history bar */
+.title {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #e0c199;
+  padding: 10px;
+  font-size: 18px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* input bar to  */
+.input {
+  border-radius: 4px;
+  border: none;
+  color: #535861;
+  padding: 8px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  align-content: center;
+  flex: wrap;
+}
+
+.goButton {
+  background-color: #fff4f4;
+  color: #f8446c;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.goButton:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.radio {
+  font-size: 15px;
+  margin-right: 30px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.ch {
+  margin: 0 8px 0 6px;
+}
+
+.result {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  height: 100%;
+  background-color: #fff4f4;
+  max-height: max-content;
+  font-family: Georgia;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #13223d;
+  color: #f3f3f3;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.clearButton {
+  background-color: #f8446c;
+  color: #fff4f4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.clearButton:hover {
+  background: #535861;
+  cursor: pointer;
+}
+
+.column {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  background-color: #fff4f4;
+  height: 100%;
+  flex: 1;
+}
+
+.box {
+  display: flex;
+}
+
+.today {
+  background-color: rgba(102, 179, 255, 0.5) !important;
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #576d94;
+  flex-direction: row;
+  position: relative;
+  font-family: Courier;
+  font-weight: bold;
+  padding: 5px;
+  color: #13223d;
+}
+
+.recovered {
+  background-color: rgba(191, 242, 202, 0.5) !important;
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #576d94;
+  flex-direction: row;
+  position: relative;
+  font-family: Courier;
+  font-weight: bold;
+  padding: 5px;
+  color: forestgreen;
+}
+
+.death {
+  background-color: rgba(237, 178, 178, 0.5) !important;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #576d94;
+  flex-direction: row;
+  position: relative;
+  font-family: Courier;
+  font-weight: bold;
+  padding: 5px;
+  color: firebrick;
+}
+
+.critical {
+  background-color: rgba(237, 199, 152, 0.5) !important;
+  border-bottom: 10px solid rgba(242, 234, 0, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #576d94;
+  flex-direction: row;
+  position: relative;
+  font-family: Courier;
+  font-weight: bold;
+  padding: 5px;
+  color: chocolate;
+}
